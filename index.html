@@ -1,9 +1,445 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>testing</p>
-<img src="images/jobi-trello.png" />
-</body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Expedia.co.in</title>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 100%!important;
+	font-family: sans-serif;
+}
+table {border-spacing: 0;}
+.yellowband {
+	background: #ffcb00;
+	height: 7px;
+}
+.content {
+	width: 100%;
+	max-width: 600px;
+}
+.header {
+	padding: 15px 0 15px 0;
+	text-align:center;
+}
+.logo {
+	width: 205px;
+}
+.contentarea {
+	color: #6b6b6b;
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: normal;
+	background: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+.borderbottom {
+	border-bottom: 2px solid #cfcfcf;
+}
+.borderbottomthin {
+	border-bottom: 1px solid #e5e5e5;
+}
+.contentBox {
+	margin-bottom: 30px;
+}
+h1 {
+	font-size: 28px;
+	line-height: 35px;
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #ffffff;
+	margin: 0;
+}
+.headline {
+	padding: 10px;
+	background: #00355f;
+	text-align: center;
+}
+.headlinebar{
+	padding: 0;
+	margin:0;
+	background: #00355f;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.buttons {
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 20px 0 0 0;
+	width: 80%;
+}
+.primarybutton {
+	background: #ffcb00;
+	color: #1f1f1f;
+	border: 1px solid #b39100;
+	border-bottom: 2px solid #b39100;
+}
+.secondarybutton {
+	background: #005fb5;
+	color: #ffffff;
+	border: 1px solid #004279;
+	border-bottom: 2px solid #004279;
+}
+.button a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.destination {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.price {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #1f1f1f;
+	margin-top: 5px;
+}
+.strikethroughprice {
+	text-decoration: line-through;
+	color: #999999;
+}
+.discountedprice {
+	color: #d60000;
+}
+.columns {
+	width: 100%;
+}
+.imagebox {
+	background: #f5f5f5;
+	padding: 0;
+	margin: 0;
+	height:0;
+	display:block;
+}
+.appheader {
+	width: 100%;
+	font-weight: bold;
+}
+.appheadercontent {
+	vertical-align: middle;
+	display: table-cell
+}
+.appicons {
+	width: 100%;
+	margin-top: 20px;
+}
+.appheadericon {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.downloadheading {
+	vertical-align: middle;
+	text-align: left;
+	display: inline-block;
+	width: 170px;
+}
+.socialheader {
+	width: 100%;
+	font-weight: bold;
+}
+.socialicons {
+	width: 100%;
+	margin-top: 20px;
+}
+a {
+	color: #0065b8;
+	text-decoration: none;
+	font-size: 15px;
+}
+.textlink {
+	margin: 5px 20px 30px 20px;
+}
+.footer {
+	width: 100%;
+	margin: 30px 0;
+	color: #6b6b6b;
+	padding: 0 20px 30px 20px;
+	font-size: 15px;
+}
+.footerlinks {
+	padding: 0 0 15px 0;
+	line-height: 30px;
+}
+.footerlinks a {
+	margin: 0 5px 0 5px;
+}
+.links{
+	display:none;	
+}
+.links ul{	
+	margin:0; padding:10px 0 10px 0;
+}
+.links ul li{
+	display:inline-block; 
+	padding:0 10px 0 10px;
+	list-style-type: square;
+	list-style-image:none;
+}
+.dealstimer{
+	color:#d60000; text-transform:uppercase; font-weight:bold; font-size:14px; display:inline-block; margin-top:10px;	
+}
+.dealsTitle{
+	display:inline-block; line-height:30px; vertical-align:middle; padding-right:5px;	
+}
+.timer{
+	display:inline-block; font-size:30px; line-height:30px; vertical-align:middle;
+}
+
+ @media only screen and (min-device-width: 601px) {
+.header {
+	padding: 20px 0 20px 0;
+	text-align:left;
+}
+.content {
+	width: 600px !important;
+}
+.logo {
+	width: 238px;
+}
+.columns {
+	width: 285px;
+}
+.buttons {
+	width: auto;
+}
+.appheader {
+	width: 250px;
+}
+.appicons {
+	width: 300px;
+	margin-top: 5px;
+}
+.socialheader {
+	width: 200px;
+	font-weight: bold;
+}
+.socialicons {
+	width: 340px;
+	margin-top: 0;
+}
+.footer {
+	padding: 0 0 30px 0;
+}
+.links{
+	
+	display: table-cell;	
+}
+.dealstimer{
+	color:#d60000; text-transform:uppercase; font-weight:bold; font-size:14px; float:right; width:100px; display:table; margin-top:0;
+}
+.dealsTitle{
+	display:inline-block; line-height:20px; vertical-align:middle; padding-right:5px;	
+}
+.timer{
+	display:inline-block; font-size:30px; line-height:30px; vertical-align:middle;
+}
+ }
+</style>
+</head>
+<body yahoo bgcolor="#f5f5f5">
+<table width="100%" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="yellowband"></td>
+  </tr>
+  <tr>
+  <!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+            <![endif]-->
+  
+    <td><table class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="header"><a href="http://click.in.expediamail.com/?qs=b077bed8ba9e1adf4bb77fb37973d12826bb37fe89de3e60dfc48945dc58ae70882a7c5f5d4f7ca7"><img class="logo" src="ExpediaLogo.png" border="0" alt="Expedia Logo" / ></a>
+          <table border="0" cellspacing="0" cellpadding="0" class="dealstimer">
+          <tr><td width="47"><img src="timer.png" width="47" height="40" style="padding-right:10px;" /></td><td><span class="dealsTitle">Deals end in</span>
+         <span class="timer">48:23:45</span></td></tr>
+          </table>
+          
+          </td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentBox">
+          		<tr>
+                <td class="links" style="border-top:1px solid #d5d5d5;" align="center">
+                		<ul><li><a href="#">Home</a><li><a href="#">Hotels</a><li><a href="#">Flights</a></li><li><a href="#">Flight + Hotel</a></li><li><a href="#">Last Minute Deals</li></ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="headlinebar"><img src="spacer.png" width="7" height="7" /></td>
+              </tr>
+              <tr>
+                <td class="imagebox"><img src="heroBanner.jpg" width="100%" border="0" alt="Festive Season Sale up to 50% Off"/></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+                  <p><a href="#" class="buttons primarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentBox">
+              <tr>
+                <td class="imagebox"><img src="delhi.jpg" width="100%" border="0" alt="Visit Delhi"/></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Delhi</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table class="columns contentBox" align="left" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="imagebox"><img src="shimla.jpg" width="100%" border="0" alt="Visit Shimla" /></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Shimla</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table>
+            <table class="columns contentBox" align="right" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="imagebox"><img src="goa.jpg" width="100%" border="0" alt="Visit Goa" /></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Goa</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentBox">
+              <tr>
+                <td class="imagebox"><img src="coorg.jpg" width="100%" border="0" alt="Visit Coorg"/></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Coorg</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table class="columns contentBox" align="left" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="imagebox"><img src="nepal.jpg" width="100%" border="0" alt="Visit Nepal" /></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Nepal</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table>
+            <table class="columns contentBox" align="right" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="imagebox"><img src="srilanka.jpg" width="100%" border="0" alt="Visit Sri Lanka" /></td>
+              </tr>
+              <tr>
+                <td class="contentarea borderbottom"><p class="destination">Sri Lanka</p>
+                  <p class="dealsimage"><img src="packageicon.png" width="60" height="19" alt="Package deals" /></em></p>
+                  <p class="price">From <span class="strikethroughprice">Rs.2,998</span> <span class="discountedprice">Rs.2,626</span></p>
+                  <p><a href="#" class="buttons secondarybutton">See Hotel Deals</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentBox">
+              <tr>
+                <td class="contentarea borderbottom" valign="bottom"><table class="appheader" border="0" cellspacing="0" cellpadding="0" align="left">
+                    <tr>
+                      <td class="appheadercontent"><img src="mobileicon.png" width="50" height="50" alt="Get Expedia App" class="appheadericon"/>
+                        <p class="downloadheading">Download our FREE Mobile App</p></td>
+                    </tr>
+                  </table>
+                  <table class="appicons" border="0" cellspacing="0" cellpadding="0" align="right">
+                    <tr>
+                      <td><a href="http://click.in.expediamail.com/?qs=766000e59f6f0bbaf37539d189daa6fbd6af579dca41a3f52b5a21513629aa8ba287325a1f66b4d2"><img src="appstore.png" width="135" height="40" alt="App Store" /></a></td>
+                      <td><a href="http://click.in.expediamail.com/?qs=bd3f04f2b1a1fea66f0dae103507c8f193976ceb8b7083251ad851d229be3ced080706b3fe3397dc"><img src="googleplay.png" width="116" height="41" alt="Google Play" /></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="contentBox">
+              <tr>
+                <td class="contentarea borderbottom" valign="bottom"><table class="socialheader"  border="0" cellspacing="0" cellpadding="0" align="left">
+                    <tr>
+                      <td class="">Stay connected with us</td>
+                    </tr>
+                  </table>
+                  <table class="socialicons" border="0" cellspacing="0" cellpadding="0" align="right">
+                    <tr>
+                      <td><a href="http://click.in.expediamail.com/?qs=6322c10d8c02e609684ca57e634ed5bb8d6bc910957e761ffba9963ed4dce0a62cce0b1c7dc074db"><img src="twitter.png" width="28" height="28" alt="Twitter" /></a></td>
+                      <td><a href="http://click.in.expediamail.com/?qs=21e8e2d52733901e5d29dc11da89fd141ca2b75b2f690e27e93247e1bda1ca790960410ba0431d08"><img src="facebook.png" width="28" height="28" alt="Facebook" /></a></td>
+                      <td><a href="http://click.in.expediamail.com/?qs=08d1dc8213aa49ce09f9192256022007ce04136dff56b4bf1adedfb6aebe6646ade7134d8cbf2d2e"><img src="gplus.png" width="28" height="28" alt="Google Plus" /></a></td>
+                      <td><img src="pinterest.png" width="28" height="28" alt="Pinterest" /></td>
+                      <td><img src="instagram.png" width="28" height="28" alt="Instagram" /></td>
+                      <td><a href="http://click.in.expediamail.com/?qs=342c506149e651677d5e6979d50ab93ae2358ad100f6eb26482ce2d169ff449f9a6cb8eccefa89aa"><img src="youtube.png" width="28" height="28" alt="YouTube" /></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="center" class="borderbottomthin"><p class="textlink"><a href="http://click.in.expediamail.com/?qs=063c905e88409032e3a9268f5d964be1e3ba7670fdbd7e6e2505aa3129261febc4f9159e03d4ac3a" target="_blank">View this email as a web page</a></p></td>
+        </tr>
+        <tr>
+          <td align="center"><table class="footer" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="footerlinks"><a  href="http://click.in.expediamail.com/?qs=55f3d6aeb736396ff3d1284ffeb507676ce11ec15b208ad23b41641190080b5640dd2c765e1bb6c7">My Account</a> | <a  href="http://click.in.expediamail.com/?qs=5f853185349ad3454c9e202a47c7f6a409880072eb687e69c8ee1caa81e5951a60614636d17f4e7c">My Itineraries</a> | <a  href="http://click.in.expediamail.com/?qs=e56f9ca53e57fe22dfd674b397e8690b925f179b196cfe4f2f4452706d320f293478ac8149f41fc1">Unsubscribe</a> | <a  href="http://click.in.expediamail.com/?qs=d4499620a9e909890bb5b5039e91d14675e241b3b94d2589cd0afecf8a35d37567207536724fceb5">Privacy Policy</a> | <a  href="http://click.in.expediamail.com/?qs=221193dd56f164cb397ece807b9529ce06d9ef8c0d75ed357bd87120aefc5c5ce5cc8bf308043dd1"> Customer Support </a></td>
+              </tr>
+              <tr>
+                <td>*Prices are correct at time of publication and are subject 
+                  
+                  to availability and change. Please see <a  href="http://click.in.expediamail.com/?qs=5a96d97219d0b6cb12f34a598735596ae8eb32cdf38c0fe883627b5f2124ec5c2da48b389425bb91" class="nocolor" style="color: #0065B8; text-decoration: underline;"> http://www.expedia.co.in</a> to confirm availability, prices 
+                  
+                  and applicable terms and conditions.<br>
+                  <br />
+                  To ensure future newsletters are delivered straight to your inbox, please add <span class="nocolor">Expedia@in.expediamail.com</span> to your 
+                  
+                  address book. <br />
+                  <br />
+                  &copy; 2014 Expedia Inc. All rights reserved. </td>
+              </tr>
+            </table></td>
+        </tr>
+      </table>
+      
+      <!--[if (gte mso 9)|(IE)]>
+        </td>
+    </tr>
+</table>
+<![endif]-->
+      
+      </td>
+  </tr>
+</table>
+
 </html>
